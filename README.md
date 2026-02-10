@@ -1,57 +1,60 @@
-# Practica 2
-# ¿Qué es una Base De Datos Relacional?
-Es un sistema que almacena información de forma estructurada.
-Organiza los datos en tablas relacionadas entre sí.
-Utiliza claves para conectar la información.
-Facilita el acceso, control y consistencia de los datos.
-# ¿Qué es una Tabla en el contexto Base De Datos Relacionales?
-Es la estructura principal de una base de datos relacional.
-Organiza la información en filas y columnas.
-Cada tabla representa una entidad específica.
-Permite guardar datos de manera ordenada..
-# ¿Qué es una relación en el contexto de Base De Datos Relacionales?
-Es la conexión entre dos o más tablas.
-Se establece mediante claves primarias y foráneas.
-Permite asociar información relacionada.
-Evita la duplicación de datos.
-# ¿Qué representa una columna en el contexto de Base De Datos Relacionales?
-Representa un campo o atributo de la tabla.
-Define el tipo de dato que se almacena.
-Cada columna tiene un nombre específico.
-Describe una característica del registro.
-# ¿Qué representa un renglón en el contexto de Base De Datos Relacionales?
-Es una fila dentro de la tabla.
-Representa un registro completo.
-Contiene los valores de todas las columnas.
-Corresponde a un solo elemento. 
+# Flujo Basico Practica 2
+# ¿Qué es una Base de Datos Relacional?
+Es un sistema que permite almacenar información de manera organizada y estructurada.
+Los datos se guardan en tablas que se relacionan entre sí mediante claves.
+Este modelo facilita la consulta, actualización y control de la información.
+Además, asegura la integridad y consistencia de los datos almacenados.
+
+# ¿Qué es una Tabla en el contexto de Bases de Datos Relacionales?
+Es una estructura donde se almacenan los datos en filas y columnas.
+Cada tabla representa una entidad como personas, productos o servicios.
+Las columnas definen los atributos y las filas los registros.
+Permite organizar la información de forma clara y ordenada.
+
+ # ¿Qué es una relación en el contexto de Bases de Datos Relacionales?
+Es el vínculo lógico que existe entre dos o más tablas.
+Se establece mediante el uso de claves primarias y foráneas.
+Permite asociar información relacionada entre diferentes tablas.
+Ayuda a evitar la duplicación y mejora la organización de los datos.
+
+# ¿Qué representa una columna en el contexto de Bases de Datos Relacionales?
+Representa un campo o atributo dentro de una tabla.
+Define el tipo de información que se almacenará en cada registro.
+Cada columna tiene un nombre y un tipo de dato específico.
+Describe una característica particular de la entidad.
+
+# ¿Qué representa un renglón en el contexto de Bases de Datos Relacionales?
+Representa un registro completo dentro de una tabla.
+Contiene todos los valores correspondientes a cada columna.
+Describe a un solo elemento o entidad específica.
+Cada renglón es una entrada única de información.
+
 # ¿Qué es un motor de base de datos relacional?
-Es el software que administra la base de datos.
-Permite crear y manejar tablas.
-Ejecuta consultas mediante SQL.
-Controla el acceso y seguridad de los datos.
-# ¿Cuáles son los motores de bases de datos relacionales mas populares?
-Son sistemas usados para manejar bases de datos.
-Permiten almacenar y consultar información.
-Los más conocidos son MySQL y PostgreSQL.
-También destacan Oracle y SQL Server.
-# ¿Cuál es el motor de base datos ligero que no necesita un servidor?
-SQLite es un motor de base de datos.
-No necesita servidor para funcionar.
-Trabaja con un solo archivo local.
-Es ideal para aplicaciones pequeñas.
-# ¿Qué significa SQL en el contexto de base datos relacionales?
-Significa Structured Query Language.
-Es un lenguaje para bases de datos relacionales.
-Permite consultar y modificar datos.
-Se usa en la mayoría de los motores.
-# ¿Cuáles son los elementos de un sistema de información basado en base de datos relacionales?
-Incluye la base de datos y el motor.
-También el lenguaje SQL y los usuarios.
-Se apoya en hardware y software.
-Permite gestionar información de forma eficiente.
+Es el software encargado de administrar la base de datos.
+Permite crear, modificar, consultar y eliminar datos.
+Utiliza el lenguaje SQL para ejecutar las operaciones.
+También controla la seguridad y el acceso a la información.
 
+# ¿Cuáles son los motores de bases de datos relacionales más populares?
+Son sistemas ampliamente utilizados para gestionar bases de datos.
+Entre los más conocidos se encuentran MySQL y PostgreSQL.
+También destacan Oracle Database y Microsoft SQL Server.
+Estos motores se usan en aplicaciones empresariales y web.
 
+# ¿Cuál es el motor de base de datos ligero que no necesita un servidor?
+SQLite es un motor de base de datos ligero y sencillo.
+No requiere instalación ni ejecución de un servidor.
+Almacena los datos en un solo archivo local.
+Es ideal para aplicaciones pequeñas y dispositivos móviles.
 
+# ¿Qué significa SQL en el contexto de bases de datos relacionales?
+SQL significa Structured Query Language.
+Es el lenguaje estándar para trabajar con bases de datos relacionales.
+Permite crear, consultar, modificar y eliminar datos.
+Es compatible con la mayoría de los motores de base de datos.
 
-
-E
+# ¿Cuáles son los elementos de un sistema de información basado en bases de datos relacionales?
+Incluye la base de datos y el motor de base de datos.
+También integra el lenguaje SQL y los usuarios.
+Se apoya en hardware, software y procedimientos.
+Todos estos elementos permiten gestionar la información eficientemente.
